@@ -22,7 +22,7 @@ p {
   line-height: 1.4;
   width: 90%;
   max-width: 43rem;
-  padding: 0.4rem 1rem; }
+  padding: 0.4rem 3rem; }
 
 a {
   text-decoration: underline;
@@ -40,7 +40,7 @@ a {
       font-size: 1.5em; } }
 
 .top-header {
-  padding: 1rem 1rem;
+  padding: 1rem 3rem;
   padding-bottom: 0; }
   .top-header .thats-a-heading {
     color: #343030;
