@@ -1,0 +1,79 @@
+/* Luke's styles */
+* {
+  box-sizing: border-box; }
+
+html {
+  height: 100%; }
+
+body {
+  border: 25px solid #e6e3e3;
+  min-height: 100%;
+  font-family: "futura-pt", "Futura PT", "Helvetica", Sans-serif;
+  color: #343030;
+  font-size: 16px; }
+  @media screen and (max-width: 600px) {
+    body {
+      padding-bottom: 4em; } }
+
+ul {
+  padding-left: 0; }
+
+p {
+  line-height: 1.4;
+  width: 90%;
+  max-width: 43rem;
+  padding: 0.4rem 1rem; }
+
+a {
+  text-decoration: underline;
+  color: #ee00ff; }
+  a:hover {
+    color: #baff00;
+    text-decoration: none; }
+
+.available {
+  font-size: 2em;
+  line-height: 1;
+  color: #9c9494; }
+  @media screen and (max-width: 600px) {
+    .available {
+      font-size: 1.5em; } }
+
+.top-header {
+  padding: 1rem 1rem;
+  padding-bottom: 0; }
+  .top-header .thats-a-heading {
+    color: #343030;
+    font-size: 4em;
+    margin: 0;
+    line-height: 1; }
+    @media screen and (max-width: 600px) {
+      .top-header .thats-a-heading {
+        font-size: 2em; } }
+    .top-header .thats-a-heading span {
+      font-style: italic;
+      color: #9c9494; }
+    .top-header .thats-a-heading sup {
+      font-size: 0.6em; }
+  .top-header nav {
+    font-size: 2em; }
+    .top-header nav ul li {
+      list-style-type: disc; }
+
+.a-picture-of-me {
+  width: 200px;
+  position: fixed;
+  right: 25px;
+  bottom: 0px; }
+  .a-picture-of-me img {
+    width: 100%;
+    height: auto; }
+  @media screen and (max-width: 600px) {
+    .a-picture-of-me {
+      width: 70px; } }
+
+.introduction-paragraph {
+  font-size: 1.4em; }
+
+.meta {
+  font-size: 0.8em; }
