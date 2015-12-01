@@ -17,6 +17,8 @@ body {
 
 ul {
   padding-left: 0; }
+  ul li {
+    margin-bottom: 0.5rem; }
 
 p {
   line-height: 1.4;
@@ -25,11 +27,20 @@ p {
   padding: 0.4rem 3rem; }
 
 a {
-  text-decoration: underline;
-  color: #ee00ff; }
+  text-decoration: none;
+  color: #343030;
+  border-bottom: 2px solid #ee00ff;
+  position: relative;
+  display: inline-block;
+  height: 1.2em; }
   a:hover {
-    color: #baff00;
-    text-decoration: none; }
+    color: #ee00ff;
+    text-decoration: none;
+    top: 1px; }
+
+small {
+  text-transform: lowercase;
+  font-variant: small-caps; }
 
 .available {
   font-size: 2em;
@@ -38,6 +49,8 @@ a {
   @media screen and (max-width: 600px) {
     .available {
       font-size: 1.5em; } }
+  .available a {
+    border-bottom-width: 5px; }
 
 .top-header {
   padding: 1rem 3rem;
@@ -47,6 +60,8 @@ a {
     font-size: 4em;
     margin: 0;
     line-height: 1; }
+    .top-header .thats-a-heading a {
+      border-bottom-width: 10px; }
     @media screen and (max-width: 600px) {
       .top-header .thats-a-heading {
         font-size: 2em; } }
@@ -77,3 +92,49 @@ a {
 
 .meta {
   font-size: 0.8em; }
+
+nav.top-nav {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1em; }
+  nav.top-nav ul li {
+    display: inline-block;
+    margin: 0 1em; }
+    nav.top-nav ul li a {
+      font-weight: bold;
+      border-bottom: none;
+      color: #9c9494; }
+      nav.top-nav ul li a:hover {
+        color: #ee00ff; }
+      nav.top-nav ul li a.current {
+        border-bottom: 3px solid #ee00ff; }
+  nav.top-nav .logo-mark {
+    border-bottom: none; }
+    nav.top-nav .logo-mark img {
+      width: 50px;
+      height: auto; }
+
+/* Sub Pages */
+.sub-page {
+  padding: 0 0 4em 0; }
+  .sub-page p, .sub-page ul, .sub-page ol, .sub-page h1, .sub-page h2, .sub-page h3, .sub-page h4, .sub-page h5 {
+    width: 90%;
+    max-width: 33rem;
+    margin: 0 10% 0.75rem auto;
+    padding: 0; }
+    @media screen and (max-width: 600px) {
+      .sub-page p, .sub-page ul, .sub-page ol, .sub-page h1, .sub-page h2, .sub-page h3, .sub-page h4, .sub-page h5 {
+        margin-left: auto;
+        margin-right: auto; } }
+
+.taking-jobs {
+  position: relative;
+  color: #9c9494; }
+
+.nothing-coming-up {
+  color: #9c9494;
+  list-style-type: none; }
+  .nothing-coming-up a {
+    color: #9c9494; }
+    .nothing-coming-up a:hover {
+      color: #ee00ff; }
