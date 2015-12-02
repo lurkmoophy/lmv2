@@ -71,9 +71,13 @@ small {
     .top-header .thats-a-heading sup {
       font-size: 0.6em; }
   .top-header nav {
-    font-size: 2em; }
+    font-size: 1.5em; }
     .top-header nav ul li {
       list-style-type: disc; }
+      .top-header nav ul li a {
+        color: #4661c6;
+        font-weight: bold;
+        border-bottom-color: #4661c6; }
 
 .a-picture-of-me {
   width: 200px;
