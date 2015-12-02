@@ -13,7 +13,8 @@ body {
   font-size: 16px; }
   @media screen and (max-width: 600px) {
     body {
-      padding-bottom: 4em; } }
+      padding-bottom: 4em;
+      border-width: 10px; } }
 
 ul {
   padding-left: 0; }
@@ -104,6 +105,9 @@ nav.top-nav {
   nav.top-nav ul li {
     display: inline-block;
     margin: 0 1em; }
+    @media screen and (max-width: 500px) {
+      nav.top-nav ul li {
+        margin: 0; } }
     nav.top-nav ul li a {
       font-weight: bold;
       border-bottom: none;
@@ -117,12 +121,15 @@ nav.top-nav {
     nav.top-nav .logo-mark img {
       width: 50px;
       height: auto; }
+  @media screen and (max-width: 500px) {
+    nav.top-nav {
+      width: 100%; } }
 
 /* Sub Pages */
 .sub-page {
   padding: 0 0 4em 0; }
   .sub-page p, .sub-page ul, .sub-page ol, .sub-page h1, .sub-page h2, .sub-page h3, .sub-page h4, .sub-page h5 {
-    width: 90%;
+    width: 85%;
     max-width: 33rem;
     margin: 0 10% 0.75rem auto;
     padding: 0; }
